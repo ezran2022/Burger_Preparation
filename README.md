@@ -2,4 +2,42 @@
 
 ## This is how our system started looking
 
-![image](https://user-images.githubusercontent.com/103323625/180835806-83e11de4-3016-419f-b489-7435e9f0dbbb.png)
+This is the possibility we give to you of preparing your own burger with your favorite ingredient
+
+![image](https://user-images.githubusercontent.com/103323625/180836323-ff83aefa-cbb8-4cc2-b5b3-e314b805b5e3.png)
+
+This what we said before now you can add ingredients you want and also remove ingredients if you find that amount of burger is high because here the more ingredient 
+you put in bread the more amount of burger increase
+
+![image](https://user-images.githubusercontent.com/103323625/180836955-19aefad9-f8d0-41ca-9e73-1ae7f54d47fa.png)
+
+After ordering your Burger we give you a report of your preparation
+
+![image](https://user-images.githubusercontent.com/103323625/180837881-3e9518ac-7284-4c3c-9539-865ceebbcbda.png)
+
+
+
+this is the link of Burger Preparation system
+
+https://tourmaline-lamington-a8b0f4.netlify.app/
+
+``` javascript
+import React, { Component } from "react";
+import Layout from "./components/Layout/Layout";
+import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
+class App extends Component {
+  render() {
+  return (
+    <div >
+       <Layout>
+        <BurgerBuilder/>
+       </Layout>
+    </div>
+  );
+  }
+}
+
+export default App;
+
+
+```
