@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Burger Preparation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This is how our system started looking
 
-## Available Scripts
+This is the possibility we give to you of preparing your own burger with your favorite ingredient
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/103323625/180836323-ff83aefa-cbb8-4cc2-b5b3-e314b805b5e3.png)
 
-### `npm start`
+This what we said before now you can add ingredients you want and also remove ingredients if you find that amount of burger is high because here the more ingredient 
+you put in bread the more amount of burger increase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/103323625/180836955-19aefad9-f8d0-41ca-9e73-1ae7f54d47fa.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+After ordering your Burger we give you a report of your preparation
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/103323625/180837881-3e9518ac-7284-4c3c-9539-865ceebbcbda.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+this is the link of Burger Preparation system
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://tourmaline-lamington-a8b0f4.netlify.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` javascript
+import React, { Component } from "react";
+import Layout from "./components/Layout/Layout";
+import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
+class App extends Component {
+  render() {
+  return (
+    <div >
+       <Layout>
+        <BurgerBuilder/>
+       </Layout>
+    </div>
+  );
+  }
+}
 
-### `npm run eject`
+export default App;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
