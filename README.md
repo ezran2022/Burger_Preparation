@@ -19,6 +19,11 @@ In the report we give you there is a possibility of letting you cancelling the p
 
 ![image](https://user-images.githubusercontent.com/103323625/180929518-29392d6d-0a6d-4721-8949-3da2526abba2.png)
 
+If you choose to continue we give a short message of showing it
+
+
+![image](https://user-images.githubusercontent.com/103323625/180930033-811f1516-516e-4b05-a0bc-75803f1c08c7.png)
+
 
 this is the link of Burger Preparation system
 
