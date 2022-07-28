@@ -52,7 +52,7 @@ this is our updated system with logo and toolbar
 
 this is the link of Burger Preparation system
 
-https://tourmaline-lamington-a8b0f4.netlify.app/
+https://chipper-centaur-50e430.netlify.app/
 
 ``` javascript
 import React, { Component } from "react";
