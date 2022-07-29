@@ -25,13 +25,34 @@ If you choose to continue we give a short message of showing it
 
 this is our updated system with logo and toolbar
 
-![image](https://user-images.githubusercontent.com/103323625/181175833-6f8d3a57-01e6-4c56-bc94-834e44508613.png)
+![image](https://user-images.githubusercontent.com/103323625/181483832-1753938f-8312-4752-b739-137704887099.png)
+ 
+ And here we give you a possibiity of using this system on mobile devices
+ 
+ ![image](https://user-images.githubusercontent.com/103323625/181484166-a4de4d99-c19c-47ca-9a8f-edd7912f44b9.png)
+ 
+ this is how the report summary on mobile device
+
+![image](https://user-images.githubusercontent.com/103323625/181484409-42ed1ef6-982e-4bca-9cab-12f125d61a3e.png)
+ 
+ this is the placement of our toobar
+
+![image](https://user-images.githubusercontent.com/103323625/181484682-d8b1a233-1db7-429b-9c17-89a9ebaa8383.png)
+
+
+## This is Burger Preparation Systemn
+
+
+
+
+
+
 
 
 
 this is the link of Burger Preparation system
 
-https://tourmaline-lamington-a8b0f4.netlify.app/
+https://chipper-centaur-50e430.netlify.app/
 
 ``` javascript
 import React, { Component } from "react";
